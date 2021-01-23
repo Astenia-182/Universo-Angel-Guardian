@@ -1,0 +1,57 @@
+.caja {
+	width: 1000px;
+	height: 600px;
+	background: rgb(146, 152, 127, 50%);
+	color:#000;
+	top: 50%;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%, 00%);
+	box-sizing: border-box;
+	padding: 70px;
+}
+
+.caja .logo {
+
+	border-radius: 10%;
+	position: absolute;
+	top: -100px;
+	left: calc(50% - 100px);
+}
+
+.Tema {
+    border-radius: 50%
+	position: relative;
+	top: 0px;
+	left: calc(46% - 00px);
+
+}
+
+.Titulos {
+	text-align: center;
+	color: black;
+	border:5px solid;
+	background-color: #fff;
+}
+
+.tabla {
+	border:5px solid;
+	width: 870px;
+	border-collapse: collapse;
+	 font-size: 200%;
+}
+
+.tabla td {
+
+	text-align: center;
+	border:5px solid;
+}
+
+.Novelas:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.tabla th{
+	background-color: #fff;
+}
